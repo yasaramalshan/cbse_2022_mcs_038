@@ -1,0 +1,12 @@
+Tool setup:
+1. Install the java jdk and config the JAVA_HOME + env path as described in 'https://explainjava.com/set-java-path-and-java-home-windows'
+2. Install maven and config MAVEN_HOME + env path as desribed in 'https://phoenixnap.com/kb/install-maven-windows'
+3. Install IntelliJ
+4. Install Postman
+
+Project setup:
+1. open 'department-service' in IntelliJ, let maven to do the initial configurations, then run 'com/department/DepartmentServiceApplication.java'
+   (this will run in 'http://localhost:9001/departments/')
+2. open 'user-service' in IntelliJ, let maven to do the initial configurations, then run 'com/user/UserServiceApplication.java'
+   (this will run in 'http://localhost:9092/users/')
+
